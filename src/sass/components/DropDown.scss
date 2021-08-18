@@ -1,0 +1,40 @@
+.has-submenu{   
+    width: 15%;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+
+    &:hover{
+        background-color: aqua;
+    }
+
+    &:hover .submenu{
+        display: block;
+    }
+
+    .submenu{
+        width: 100%;
+
+        display: none;
+        position: absolute;
+
+        left: 0;
+    }
+
+    li{
+        list-style: none;
+        padding: 10px 5px;
+
+        &:hover{
+            background-color: aqua;
+        }
+        
+        a{
+            text-decoration: none;
+            color: red;
+        }
+    }
+
+}

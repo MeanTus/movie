@@ -1,0 +1,30 @@
+.booking-details {
+    .booking-waiting {
+        .waiting-seat {
+            .seats {
+                border-radius: 10px;
+                height: 40px;
+                width: 40px;
+                color: #141514;
+                background: #ff6300;
+                line-height: 40px;
+                text-align: center;
+                cursor: default;
+                font-weight: bold;
+            }
+        }
+        .banner {
+            width: 90%;
+            height: 110px;
+            background: #fff;
+            margin: 15px auto;
+            transform: rotateX(-45deg);
+            box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+            .banner-text{
+                text-align: center;
+                line-height: 110px;
+                font-size:30px;
+            }
+        }
+    }
+}

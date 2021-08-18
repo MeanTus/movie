@@ -1,0 +1,22 @@
+//Helper
+@import "./sass/helper/mixin.scss";
+@import "./sass/helper/variables.scss";
+
+//Components
+@import "./sass/components/NotFound.scss";
+@import "./sass/components/Loading.scss";
+@import "./sass/components/Spinner.scss";
+@import "./sass/components/Navbar.scss";
+//@import "./sass/components/Footer.scss";
+@import "./sass/components/ModalForm.scss";
+@import "./sass/components/DropDown.scss";
+@import "./sass/components/CarouselMovie.scss";
+@import "./sass/components/MovieCard.scss";
+@import "./sass/components/LoginAdmin.scss";
+@import "./sass/components/AdminForm.scss";
+@import "./sass/components/WaitingSeats.scss";
+@import "./sass/components/Footer1.scss";
+//Layouts
+@import "./sass/layouts/Homepage.scss";
+@import "./sass/layouts/MovieDetail.scss";
+@import "./sass/layouts/Booking.scss";

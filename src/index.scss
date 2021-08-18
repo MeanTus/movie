@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#root {
+  min-height: 100vh;
+  background-color: #211b19;
+}
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  padding-right: 0 !important;
+  position: relative;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+::-webkit-scrollbar-track {
+  background: #211b19;
+}

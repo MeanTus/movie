@@ -1,0 +1,47 @@
+.footer{
+    background-color: black;
+    color: #959595;
+    padding: 40px 0px 20px;
+    hr{
+        opacity: .5;
+    }
+    h5{
+        font-weight: bold;
+    }
+    .tittle{
+        border-right: solid;
+        border-color: #959595;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 15px;
+    }
+
+    p{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #959595;
+    }
+
+    a.instagram{
+        &:hover{
+            .instaIcon{
+                color: #c6be75;
+            }
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+@include responsive("medium"){
+    .footer{
+        text-align: center;
+    }
+}
