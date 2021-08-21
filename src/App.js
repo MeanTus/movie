@@ -9,7 +9,7 @@ import MovieDetail from './layouts/MovieDetail';
 import HomeProtectedRoute from './route/HomeProtectedRoute';
 import HomeLayoutRoute from './route/HomeRoute';
 import AdminRoute from "./route/AdminRoute";
-import { Footer1 } from "./components/Footer1";
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,7 +22,6 @@ function App() {
         <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>
-    // <Footer1 />
   );
 }
 
